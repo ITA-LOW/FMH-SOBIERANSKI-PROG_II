@@ -89,9 +89,8 @@ void OP1(vector<pair<string, vector<string>>> &AllPairs){
         cout<<"Error! File not found"<<endl;
     }else {
         AllPairs.push_back(make_pair(path, textVector));
+        cout<<"File successfully added into AllPairs"<<endl;
     }
-
-    cout<<"File successfully added into AllPairs"<<endl;
     cout<<endl;
 
     /*for (size_t i = 0; i<AllPairs.size(); i++) {
