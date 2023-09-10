@@ -1,0 +1,62 @@
+# File Manipulator Hack
+
+## Overview
+
+The "File Manipulator Hack" is a C++ software program designed to handle text files. It provides various file manipulation operations that allow users to load files, remove words containing a substring, remove all repeated words (keeping the first occurrence only), display statistics about the loaded files, and save the statistics to an output file. This documentation provides an overview of the program's structure, functions, and usage.
+
+## Program Structure
+
+The program is structured as follows:
+
+- `main()` function: The main entry point of the program that displays a menu for user interaction. It includes a loop that continues until the user chooses to exit.
+
+- `printCabecalho()`: A function that prints a header with program information, including the author's name and student ID.
+
+- File handling functions (`OP1`, `OP2`, `OP3`, `OP4`, `OP5`):
+  - `OP1`: Loads a text file specified by the user, stores its content in a vector, and adds the file-path and content vector to the `AllPairs` vector.
+  - `OP2`: Removes words from the loaded files that contain a specified substring.
+  - `OP3`: Removes all repeated words from the loaded files, keeping only the first occurrence.
+  - `OP4`: Displays statistics about the loaded files, including the number of words in each file.
+  - `OP5`: Writes the statistics to an output file named "concatenation.txt."
+
+- `ReadFile()`: Reads the content of a file specified by its path and stores it in a vector.
+
+- `RemoveDuplicates()`: A helper function used in `OP3` to remove duplicate words from a vector, keeping only the first occurrence.
+
+## Usage
+
+1. When the program starts, it displays program information using `printCabecalho()`.
+
+2. It then enters a menu loop, where the user can choose from the following options:
+
+   - Option 1: Load a file. The user is prompted to enter the path of the file to load.
+
+   - Option 2: Remove words containing a specified substring. The user is prompted to enter the substring to be removed from the loaded files.
+
+   - Option 3: Remove all repeated words (keep the first occurrence only). The user is prompted to enter a string to be removed from the loaded files.
+
+   - Option 4: Show statistics about the loaded files, including the number of words in each file.
+
+   - Option 5: Save the statistics to an output file named "concatenation.txt" and exit the program.
+
+3. The program performs the selected operation and provides feedback on the result.
+
+4. The menu loop continues until the user chooses option 5 to exit the program.
+
+## Example Usage
+
+Here's an example of how to use the program:
+
+1. Choose option 1 to load a file. Enter the path of a text file to load.
+
+2. Choose option 2 to remove words containing a specified substring. Enter the substring to remove.
+
+3. Choose option 3 to remove all repeated words, keeping only the first occurrence. Enter the string to remove.
+
+4. Choose option 4 to display statistics about the loaded files.
+
+5. Choose option 5 to save the statistics to an output file and exit the program.
+
+## Conclusion
+
+The "File Manipulator Hack" is a simple C++ program for basic file manipulation tasks. It allows users to load, process, and analyze text files, making it a handy tool for tasks involving textual data.
