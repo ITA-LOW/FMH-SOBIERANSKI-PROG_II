@@ -1,3 +1,4 @@
 ********************* STATS *********************
-File: C:\Users\Pichau\Desktop\File_Manipulator_Hack\para_entrevista.txt has 45 words.
+File: C:\Users\Pichau\Desktop\File_Manipulator_Hack\files\d2.txt has 2 words.
+File: C:\Users\Pichau\Desktop\File_Manipulator_Hack\files\d4.txt has 149766 words.
 *************************************************
